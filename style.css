@@ -1,0 +1,28 @@
+h1{
+    color:aqua;
+    front-size: 50px;
+    text-align:center;
+    background-color: black;
+}
+h2{
+    background-image: url(hh.png);
+    background-size: auto;
+}
+img{
+    width: 200px;
+}
+footer{
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}
+.image{
+    text-align: center;
+    background-color: blueviolet;
+    width: 400px;
+    margin: auto;
+    border: double;
+    border-radius: 50px;
+    border-color: black;
+    
+}
