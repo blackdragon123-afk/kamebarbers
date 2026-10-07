@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head>
+   
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contacts</title> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header>
+        <div class="caixa">
+            <h1><img src="ChatGPT_Image_5_de_ago._de_2026__11_23_33-removebg-preview.png" alt=""></h1>
+
+            <nav>
+                <ul>
+                    <li>  <a href="index.html">HOME</a></li> 
+                    <li>  <a href="servicos.html">SERVICES</a></li>
+                    <li>  <a href="contatos.html">CONTACTS </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+    <form>
+        <label for="nomesobrenome"> first and last name</label>
+        <input type="text" id="nomesobrenome" class="input-padrao"> 
+
+        <label for="email">E-mail</label>
+        <input type="text" id="email" class="input-padrao"> 
+
+        <label for="telefone"> Telephone</label>
+        <input type="text" id="telefone" class="input-padrao">
+
+        <label for="mensagem">Mensage</label>
+        <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+        <div>
+            <p>How would you prefer to contact us?</p>
+            <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Email
+            </label>
+
+            <label for="radio-telefone">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                Telephone
+            </label>
+
+            <label for="radio-whatsapp">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                Whatsapp
+            </label> <br>
+        </div>
+        <div>
+            <p>what time you prefer to be seen?</p> 
+            <select>
+                <option>Morning</option>
+                <option>sunset</option>
+                <option>night</option>
+            </select>
+        </div>
+
+        <label class="checkbox"> 
+            Would you like to use our hotline to recieve the news?
+            <input type="checkbox">
+        </label>
+            <input type="submit" value="Enviar formulário" class="enviar">
+    </form>
+</main>
+
+        <footer>
+        <img src="ChatGPT_Image_5_de_ago._de_2026__11_23_33-removebg-preview.png" alt="">
+        <p class="copyright"> &#169; Synthwave Barbers Victor. E - Jonathan ></p>
+    </footer>
+</body>
+</html>
