@@ -179,11 +179,11 @@ color: rgb(68, 0, 255);
 }
 .mapa h2{
 font-size: 30px;
-color: rgb(252, 252, 252);
+color: rgb(255, 0, 179);
 }
 .mapa iframe{
     box-sizing: border-box;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(150, 3, 248);
     border-radius: 20px;
     
 }
@@ -191,8 +191,8 @@ color: rgb(252, 252, 252);
     font-size: 20px;
 }
 nav a {color:rgb(0, 0, 0)}
-body {background-color: black;}
-.mapa p {color: rgb(255, 255, 255);}
-.servicos p {color: aliceblue;}
-.servicos h2 {color: rgb(255, 255, 255);}
-form {color:rgb(253, 253, 253)}
+body {background-color: rgb(88, 0, 55);}
+.mapa p {color: rgb(0, 81, 255);}
+.servicos p {color: rgb(255, 0, 149);}
+.servicos h2 {color: rgb(0, 174, 255);}
+form {color:rgb(0, 140, 255)}
